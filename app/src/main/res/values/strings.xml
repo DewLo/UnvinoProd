@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Unvino</string>
+    <string name="signIn">Войти</string>
+    <string name="or">or</string>
+    <string name="todo">TODO</string>
+    <string name="signUp">Зарегестрироваться</string>
+</resources>
