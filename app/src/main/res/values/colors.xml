@@ -15,10 +15,4 @@
     <color name="yellow">#FFD166</color>
     <color name="middle_orange">#FF8B7B</color>
     <color name="brown">#7D4839</color>
-<!--WhiteView-->
-    <color name="whiteView_background">#FFFFFF</color>
-
-    <!--RedButton-->
-    <color name="RedButton_background">#FFFFFF</color>
-    <color name="RedButton_foreground">#000000</color>
 </resources>

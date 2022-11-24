@@ -7,7 +7,50 @@
     tools:context=".SignUp_Window"
     android:background="@color/white">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122sp"
+        android:layout_height="122sp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/launch_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Регистрация"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_edit_text"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Логин"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:singleLine="false"
+        android:textAlignment="textStart"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
