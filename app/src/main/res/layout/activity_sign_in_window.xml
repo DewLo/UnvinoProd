@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp_Window"
+    tools:context=".SignIn_Window"
     android:background="@color/white">
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/comfortaa_bold"
-        android:text="Регистрация"
+        android:text="Войти"
         android:textColor="@color/brown"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,33 +50,15 @@
         android:textColorHint="@color/hint_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="92dp"
-        android:background="@drawable/border_edit_text"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Эл. почта"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:paddingBottom="5dp"
-        android:singleLine="false"
-        android:textAlignment="textStart"
-        android:textColor="@color/brown"
-        android:textColorHint="@color/hint_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
+        android:id="@+id/editText3"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/border_edit_text"
         android:fontFamily="@font/comfortaa"
         android:hint="Пароль"
@@ -89,53 +72,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="224dp"
-        android:background="@drawable/border_edit_text"
-        android:fontFamily="@font/comfortaa"
-        android:hint="Повторите пароль"
-        android:inputType="text"
-        android:paddingLeft="10dp"
-        android:paddingBottom="5dp"
-        android:singleLine="false"
-        android:textAlignment="textStart"
-        android:textColor="@color/brown"
-        android:textColorHint="@color/hint_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="208dp"
         android:buttonTint="@color/brown"
         android:checked="true"
         android:text="Показать пароль"
         android:textColor="@color/brown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="250sp"
         android:layout_height="50sp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/border_button"
         android:fontFamily="@font/comfortaa_bold"
-        android:text="@string/signUp"
+        android:text="@string/signIn_acc"
         android:textColor="@color/brown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,4 +15,5 @@
     <color name="yellow">#FFD166</color>
     <color name="middle_orange">#FF8B7B</color>
     <color name="brown">#7D4839</color>
+    <color name="hint_color">#BEA39C</color>
 </resources>
